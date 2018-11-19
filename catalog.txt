@@ -247,7 +247,6 @@
           <li><a class="footer-inner-site" href="#">Ёкологические стандарты</a></li>
         </ul>
         </div>
-        ффываыва
         <img src="img/academy.jpg" width="322" height="133" alt="HTML Academy">
         <p class="footer-copyright">
         —делано в <a class="button" href="https://htmlacademy.ru">HTML Academy</a> © 2017

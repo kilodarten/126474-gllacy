@@ -3,6 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>GlaccyShop</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+      <link href="css/normalize.css" rel="stylesheet">
   </head>
   <body>
 <header class="main-header">
@@ -16,14 +21,32 @@
           <li><a href="company.html">О компании</a></li>
         </ul>
         </nav>
-        <div class="user-navigation">
-          <div class="search">Поиск? как вставить?</div>
+        <div class="page-header__btn  page-header__btn--search">
+          Поиск
+          <div class="page-header__popup-wrap  page-header__popup-wrap--extra-space">
+            <form class="page-header__search-form" id="search-form" action="/" method="get">
+              <input type="text" name="search-query" placeholder="Что ищем?">
+            </form>
+          </div>
         </div>
-        <div class="user-navigation">
-          <div class="login-link">Вход</div>
-        </div>
-        <div class="user-navigation">
-          <div class="badge">Пусто</div>
+        <div class="page-header__user">
+          <div class="page-header__btn  page-header__btn--login">
+            Вход
+            <div class="page-header__popup-wrap">
+              <form class="login-form" id="login-form" action="/" method="post">
+                <input type="email" name="email" placeholder="Электронная почта">
+                <input type="password" name="password" placeholder="Пароль">
+                <input class="button" type="submit" value="Войти">
+                <div class="login-form__links">
+                  <a class="login-form__link" href="#">
+                    <span class="login-form__link-content">Забыли пароль?</span>
+                  </a>
+                  <a class="login-form__link" href="#">
+                    <span class="login-form__link-content">Новая регистрация</span>
+                  </a>
+                </div>
+              </form>
+            </div>
         </div>
         <div class="page-header__btn  page-header__btn--basket-full">
             2 товара
@@ -92,7 +115,7 @@
       <ul class="breadcrumbs">
         <li><a href="index.html">Главная</a></li>
         <li><a href="catalog.html">Каталог</a></li>
-        <li class="breadcrumbs-current">Сливочное мороженое</li>
+        <li class="breadcrumbs-current">Сливочное</li>
       </ul>
       <h1 class="page-title">Сливочное мороженое</h1>
       <section class="filters">
@@ -105,7 +128,7 @@
           <li class="catalog-item">
             <h3>
               <a href="catalog-item.html">
-                Сливочное с апельсиновым джемом и цитрусовой стружкой
+                <span class="catalog-item-name">Сливочное с апельсиновым джемом и цитрусовой стружкой</span>
               </a>
             </h3>
             <p class="catalog-item-image">
@@ -121,7 +144,7 @@
 
             <h3>
               <a href="catalog-item.html">
-                Сливочно-кофейное с кусочками шоколада
+                <span class="catalog-item-name">Сливочно-кофейное с кусочками шоколада</span>
               </a>
             </h3>
             <p class="catalog-item-image">
@@ -137,7 +160,7 @@
           <li class="catalog-item">
             <h3>
               <a href="catalog-item.html">
-                Сливочно-клубничное с присыпкой из белого шоколада
+                <span class="catalog-item-name">Сливочно-клубничное с присыпкой из белого шоколада</span>
               </a>
             </h3>
             <p class="catalog-item-image">
@@ -152,7 +175,7 @@
           <li class="catalog-item">
             <h3>
               <a href="catalog-item.html">
-                Сливочное крем-брюле с карамельной подливкой
+                <span class="catalog-item-name">Сливочное крем-брюле с карамельной подливкой</span>
               </a>
             </h3>
             <p class="catalog-item-image">
@@ -169,7 +192,7 @@
             <span class="catalog-item-title">?/кг</span>
             <h3>
               <a href="catalog-item.html">
-                Сливочное с брусничным джемом
+                <span class="catalog-item-name">Сливочное с брусничным джемом</span>
               </a>
             </h3>
             <p class="catalog-item-image">
@@ -182,7 +205,7 @@
            <li class="catalog-item">
             <h3>
               <a href="catalog-item.html">
-                Сливочно-черничное с цельными ягодами черники
+                <span class="catalog-item-name">Сливочно-черничное с цельными ягодами черники</span>
               </a>
             </h3>
             <p class="catalog-item-image">
@@ -196,7 +219,7 @@
            <li class="catalog-item">
             <h3>
               <a href="catalog-item.html">
-                Сливочно-лимонное с карамельной присыпкой
+                <span class="catalog-item-name">Сливочно-лимонное с карамельной присыпкой</span>
               </a>
             </h3>
             <p class="catalog-item-image">
@@ -211,7 +234,7 @@
            <li class="catalog-item">
             <h3>
               <a href="catalog-item.html">
-                Сливочное с шоколадной стружкой
+                <span class="catalog-item-name">Сливочное с шоколадной стружкой</span>
               </a>
             </h3>
             <p class="catalog-item-image">
@@ -226,7 +249,7 @@
           <li class="catalog-item">
             <h3>
               <a href="catalog-item.html">
-                Сливочно-ванильное с кусочками шоколада
+                <span class="catalog-item-name">Сливочно-ванильное с кусочками шоколада</span>
               </a>
             </h3>
             <p class="catalog-item-image">
@@ -241,7 +264,7 @@
           <li class="catalog-item">
             <h3>
               <a href="catalog-item.html">
-                Сливочноe с ментоловым сиропом
+                <span class="catalog-item-name">Сливочноe с ментоловым сиропом</span>
               </a>
             </h3>
             <p class="catalog-item-image">
@@ -256,7 +279,7 @@
           <li class="catalog-item">
             <h3>
               <a href="catalog-item.html">
-                Сливочное с кусочками черного шоколада
+                <span class="catalog-item-name">Сливочное с кусочками черного шоколада</span>
               </a>
             </h3>
             <p class="catalog-item-image">
@@ -271,7 +294,7 @@
           <li class="catalog-item">
             <h3>
               <a href="catalog-item.html">
-                Сливочное с мятным сиропом
+                <span class="catalog-item-name">Сливочное с мятным сиропом</span>
               </a>
             </h3>
             <p class="catalog-item-image">
@@ -287,7 +310,7 @@
     </main>
         <footer class="main-footer">
       <div class="footer-social">
-        <ul>
+        <ul class="social-btn">
         <li><a class="social-button" href="#">Твиттер</a></li>
         <li><a class="social-button" href="#">Инстаграм</a></li>
         <li><a class="social-button" href="#">Фейсбук</a></li>
@@ -295,7 +318,7 @@
         </ul>
       </div>
       <div class="footer-inner">
-        <ul>
+        <ul class="footer-inner-btn">
           <li><a class="footer-inner-site" href="#">Для поставщиков</a></li>
           <li><a class="footer-inner-site" href="#">О производстве</a></li>
           <li><a class="footer-inner-site" href="#">Наши документы</a></li>

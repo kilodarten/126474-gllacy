@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #323232;
+  background-color: #acb7a5;
+  background-image: url("img/bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+a {
+  text-decoration: none;
+}
+.main-navigation {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+
+  background-color: #acb7a5;
+}
+.site-navigation,
+.page-nav_sub-item,
+.page-nav_sub-title,
+.shopinfo-item,
+.social-btn,
+.footer-inner-btn,
+.breadcrumbs,
+.catalog-item
+ {
+  list-style: none;
+}
+.site-navigation a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.site-navigation a:hover,
+.site-navigation a:focus {
+  background-color: #e84d37;
+}
+.page-nav_sub-list,
+.page-header__user {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.visually-hidden {
+visibility: hidden;
+}
+.shopinfo h2 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #323232;
+}
+.shopinfo-item p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #323232;
+}
+.blog_news_title h3 {
+  font-size: 16px;
+  line-height: 22px;
+  color: #323232;
+}
+/*не пойму, как тут сделать ссылку черного цвета */
+
+.blog_news_link {
+  font-size: 24px;
+  line-height: 30px;
+  color: #323232;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.blog_news_link a:hover,
+.blog_news_link a:focus {
+  background-color: #e84d37;
+}
+.mailing {
+  font-size: 16px;
+  line-height: 22px;
+  color: #5a5a5a;
+}
+.button {
+    display: inline-block;
+      text-align: center;
+      color: #ffffff;
+      vertical-align: top;
+      text-decoration: none;
+      text-shadow: 0 2px 5px rgba(160,32,11,.76);
+      background-color: #f26843;
+      border-radius: 30px;
+      box-shadow: 0 1px 1px #ac1000;
+      border: 0;
+      cursor: pointer;
+}
+
+.footer-inner-site {
+  font-size: 13px;
+  line-height: 18px;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.footer-copyright {
+  font-size: 12px;
+  line-height: 18px;
+  color: #fefefe;
+}
+.copyright
+{
+  font-size: 12px;
+  line-height: 18px;
+  color: #fefefe;
+  text-decoration: underline;
+}
+.breadcrumbs {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  text-decoration: underline;
+}
+h1 {
+  font-size: 35px;
+  line-height: 41px;
+  color: #ffffff;
+}
+.catalog-item-name {
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  text-decoration: underline;
+}
+.catalog-price {
+  font-size: 45px;
+  line-height: 45px;
+  color: #ffffff;
+}
+.catalog-item-title {
+  line-height: 45px;
+  color: #ffffff;
+}
+/* не могу понять, почему не отображается фон*/
+.shopinfo {
+   background-color: #ffffff;
+   background-image: url("img/waffle-bg.jpg");
+   background-position: 0 0;
+   background-repeat: repeat;
+}
+.blog_news {
+  background-color: #ffffff;
+  background-image: url("img/strawberry-bg.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}

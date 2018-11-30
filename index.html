@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>GlaccyShop</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
 <header class="main-header">
@@ -40,7 +43,7 @@
             <form class="login-form" id="login-form" action="/" method="post">
               <input type="email" name="email" placeholder="Электронная почта">
               <input type="password" name="password" placeholder="Пароль">
-              <input class="btn" type="submit" value="Войти">
+              <input class="button" type="submit" value="Войти">
               <div class="login-form__links">
                 <a class="login-form__link" href="#">
                   <span class="login-form__link-content">Забыли пароль?</span>
@@ -80,9 +83,9 @@
           </li>
           </ul>
       </section>
-      <article>
-        <h3>Новое в нашем блоге</h3>
-        <p><a href="new.html">10 способов сервировки фруктовых щербетов к столу</a></p>
+      <article class="blog_news">
+        <h3 class="blog_news_title">Новое в нашем блоге</h3>
+        <p class="blog_news_link"><a href="new.html">10 способов сервировки фруктовых щербетов к столу</a></p>
         </article>
         <section class="mailing">
           <p>Подпишись на нашуй сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно=)</p>
@@ -92,7 +95,7 @@
     </main>
     <footer class="main-footer">
       <div class="footer-social">
-        <ul>
+        <ul class="social-btn">
         <li><a class="social-button" href="#">Твиттер</a></li>
         <li><a class="social-button" href="#">Инстаграм</a></li>
         <li><a class="social-button" href="#">Фейсбук</a></li>
@@ -100,7 +103,7 @@
         </ul>
       </div>
       <div class="footer-inner">
-        <ul>
+        <ul class="footer-inner-btn">
           <li><a class="footer-inner-site" href="#">Для поставщиков</a></li>
           <li><a class="footer-inner-site" href="#">О производстве</a></li>
           <li><a class="footer-inner-site" href="#">Наши документы</a></li>
@@ -109,7 +112,7 @@
         </div>
         <img src="img/svg-gllacy/logo-htmlacademy.svg" width="454" height="158" alt="HTML Academy">
         <p class="footer-copyright">
-        Сделано в <a class="button" href="https://htmlacademy.ru">HTML Academy</a> © 2017
+        Сделано в <a class="copyright" href="https://htmlacademy.ru">HTML Academy</a> © 2017
       </p>
     </footer>
     <div class="modal-content  modal-content--feedback">
@@ -131,7 +134,7 @@
             <textarea id="user-message" name="message" placeholder="Напишите что-нибудь..." required></textarea>
             <label for="user-message">Напишите что-нибудь...</label>
           </div>
-          <input class="btn" type="submit" value="Отправить">
+          <input class="button" type="submit" value="Отправить">
         </form>
       </div>
     </div>
